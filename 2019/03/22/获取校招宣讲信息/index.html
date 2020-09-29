@@ -102,19 +102,19 @@
 
 
 
-<meta name="description" content="一. 获取爬取的链接​    重庆邮电大学就业信息网 校招信息网页链接：  http://job.cqupt.edu.cn/portal/home/calendar-page.html?fairDate=2019-03-22%2000:00  分析链接发现：某一天的校招信息是由链接中 yyyy-MM-dd 格式的日期控制，其余部分不变。 这样就可以自行控制爬取哪一天的招聘信息">
+<meta name="description" content="爬取重邮就业信息网宣讲会信息">
 <meta name="keywords" content="Java,爬虫,正则表达式">
 <meta property="og:type" content="article">
-<meta property="og:title" content="获取校招宣讲信息">
+<meta property="og:title" content="获取CQUPT校招宣讲信息">
 <meta property="og:url" content="https://YANGYEFU.github.io/2019/03/22/获取校招宣讲信息/index.html">
 <meta property="og:site_name" content="GHS">
-<meta property="og:description" content="一. 获取爬取的链接​    重庆邮电大学就业信息网 校招信息网页链接：  http://job.cqupt.edu.cn/portal/home/calendar-page.html?fairDate=2019-03-22%2000:00  分析链接发现：某一天的校招信息是由链接中 yyyy-MM-dd 格式的日期控制，其余部分不变。 这样就可以自行控制爬取哪一天的招聘信息">
+<meta property="og:description" content="爬取重邮就业信息网宣讲会信息">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://wx3.sinaimg.cn/large/afc695dbly1g3g5p4735ij20cs0mtaau.jpg">
-<meta property="og:updated_time" content="2020-02-03T18:01:20.865Z">
+<meta property="og:updated_time" content="2020-09-05T14:15:18.594Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="获取校招宣讲信息">
-<meta name="twitter:description" content="一. 获取爬取的链接​    重庆邮电大学就业信息网 校招信息网页链接：  http://job.cqupt.edu.cn/portal/home/calendar-page.html?fairDate=2019-03-22%2000:00  分析链接发现：某一天的校招信息是由链接中 yyyy-MM-dd 格式的日期控制，其余部分不变。 这样就可以自行控制爬取哪一天的招聘信息">
+<meta name="twitter:title" content="获取CQUPT校招宣讲信息">
+<meta name="twitter:description" content="爬取重邮就业信息网宣讲会信息">
 <meta name="twitter:image" content="https://wx3.sinaimg.cn/large/afc695dbly1g3g5p4735ij20cs0mtaau.jpg">
 
 
@@ -130,7 +130,7 @@
   };
 </script>
 
-<title> 获取校招宣讲信息 | GHS</title>
+<title> 获取CQUPT校招宣讲信息 | GHS</title>
 
 
 
@@ -388,7 +388,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">获取校招宣讲信息
+          <h1 class="post-title" itemprop="name headline">获取CQUPT校招宣讲信息
 
               
             
@@ -431,7 +431,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-02-04 02:01:20" itemprop="dateModified" datetime="2020-02-04T02:01:20+08:00">2020-02-04</time>
+                <time title="修改时间：2020-09-05 22:15:18" itemprop="dateModified" datetime="2020-09-05T22:15:18+08:00">2020-09-05</time>
               
             
           </span>
@@ -490,7 +490,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">4.8k</span>
+                <span title="本文字数">4.9k</span>
               
 
               
@@ -514,14 +514,16 @@
       
 
       
-        <h4 id="一-获取爬取的链接"><a href="#一-获取爬取的链接" class="headerlink" title="一. 获取爬取的链接"></a><strong>一. 获取爬取的链接</strong></h4><p>​    <a href="http://job.cqupt.edu.cn" target="_blank" rel="noopener">重庆邮电大学就业信息网</a></p>
+        <center><h3>爬取重邮就业信息网宣讲会信息</h3></center>
+
+<a id="more"></a>
+<h4 id="一-获取爬取的链接"><a href="#一-获取爬取的链接" class="headerlink" title="一. 获取爬取的链接"></a><strong>一. 获取爬取的链接</strong></h4><p>​    <a href="http://job.cqupt.edu.cn" target="_blank" rel="noopener">重庆邮电大学就业信息网</a></p>
 <p>校招信息网页链接：</p>
 <blockquote>
 <p><a href="http://job.cqupt.edu.cn/portal/home/calendar-page.html?fairDate=2019-03-22%2000:00" target="_blank" rel="noopener">http://job.cqupt.edu.cn/portal/home/calendar-page.html?fairDate=2019-03-22%2000:00</a></p>
 </blockquote>
 <p>分析链接发现：某一天的校招信息是由链接中 yyyy-MM-dd 格式的日期控制，其余部分不变。</p>
 <p>这样就可以自行控制爬取哪一天的招聘信息</p>
-<a id="more"></a>
 <h4 id="二-分析爬取内容"><a href="#二-分析爬取内容" class="headerlink" title="二. 分析爬取内容"></a><strong>二. 分析爬取内容</strong></h4><p>时间段：2017.09.01-2018.12.31</p>
 <p>内容样本：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"timeline-heading"</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"timeline-title"</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"/portal/home/special-recruitment-detail.html?level2MenuId=1200<span class="symbol">&amp;amp;</span>id=743<span class="symbol">&amp;amp;</span>menuId=60<span class="symbol">&amp;amp;</span>type=1"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>中国电信股份有限公司重庆分公司2018校园宣讲<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line"></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">small</span> <span class="attr">class</span>=<span class="string">"text-muted"</span>&gt;</span></span><br><span class="line">                                                <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-clock-o"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">                                                举办时间： <span class="symbol">&amp;nbsp;</span></span><br><span class="line">                                                09月12日 16:00</span><br><span class="line">                                            <span class="tag">&lt;/<span class="name">small</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">                                            <span class="tag">&lt;<span class="name">small</span> <span class="attr">class</span>=<span class="string">"text-muted"</span>&gt;</span></span><br><span class="line">                                                <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-clock-o"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">                                                举办地点： <span class="symbol">&amp;nbsp;</span></span><br><span class="line">                                                    2100教室   容纳人数：200-300</span><br><span class="line">                                            <span class="tag">&lt;/<span class="name">small</span>&gt;</span></span><br><span class="line">                                        <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">                                    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -603,7 +605,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="https://YANGYEFU.github.io/2019/03/22/获取校招宣讲信息/" title="获取校招宣讲信息">https://YANGYEFU.github.io/2019/03/22/获取校招宣讲信息/</a>
+    <a href="https://YANGYEFU.github.io/2019/03/22/获取校招宣讲信息/" title="获取CQUPT校招宣讲信息">https://YANGYEFU.github.io/2019/03/22/获取校招宣讲信息/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -846,7 +848,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一-获取爬取的链接"><span class="nav-number">1.</span> <span class="nav-text">一. 获取爬取的链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二-分析爬取内容"><span class="nav-number">2.</span> <span class="nav-text">二. 分析爬取内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三-代码-amp-效果"><span class="nav-number">3.</span> <span class="nav-text">三. 代码&amp;效果</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">爬取重邮就业信息网宣讲会信息</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一-获取爬取的链接"><span class="nav-number">1.1.</span> <span class="nav-text">一. 获取爬取的链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二-分析爬取内容"><span class="nav-number">1.2.</span> <span class="nav-text">二. 分析爬取内容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三-代码-amp-效果"><span class="nav-number">1.3.</span> <span class="nav-text">三. 代码&amp;效果</span></a></li></ol></li></ol></div>
             
 
           </div>
